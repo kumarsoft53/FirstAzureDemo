@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class AzureDemoController2 {
     @GetMapping("/say2")
     public String display2(){
+        System.out.println("This is second controller");
         return "Jai Maa Sarswati     kkkk ";
     }
 }
