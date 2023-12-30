@@ -9,6 +9,6 @@ public class AzureDemoController {
     public String display(){
         System.out.println("Changes in First Controller");
         //Changed on git reposetory file
-        return "Jai Mata dee";
+        return "you are my lucy charms Merry janu";
     }
 }
