@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class AzureDemoController {
-    @GetMapping("/say")
+    @GetMapping("/practiceProject")
     public String display(){
 
         return "<!DOCTYPE html>\n" +
