@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class AzureDemoController {
-    @GetMapping("/practiceProject")
+    @GetMapping("/notice")
     public String display(){
 
         return "<!DOCTYPE html>\n" +
@@ -41,7 +41,7 @@ public class AzureDemoController {
                 "<h2 id=\"h1\"><center>Disclaimer:  This is my practice project</center></h2>\n" +
                 "<div id=\"example1\">\n" +
                 "  <h2>Next Project <u>Yummy Food</u> coming soon</h2>\n" +
-                "  <p>Note:  Service implementation part is pending </p>\n" +
+                "  <p>Note:  Service implementation part is pending. Please be patience</p>\n" +
                 "</div>\n" +
                 "\n" +
                 "<h2>Technology stacks</h2>\n" +
