@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class AzureDemoController {
-    @GetMapping("/notice")
+    @GetMapping("/advertise")
     public String display(){
 
         return "<!DOCTYPE html>\n" +
